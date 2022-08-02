@@ -1,10 +1,10 @@
 # Symmetry Evolution Codebase
 
 The repository we use to answer questions about the symmetry evolution in the light
-of paragenetic modes, defined by [Bob Hazen et al in 2021](http://minsocam.org/MSA/Ammin/AM_Preprints/8099HazenPreprint.pdf). 
+of paragenetic modes, defined by 📖 [Bob Hazen and Shaunna Morrison in 2021](http://minsocam.org/MSA/Ammin/AM_Preprints/8099HazenPreprint.pdf). 
 
 We are using open-access [RRUFF](https://rruff.info/) data for building the warehouse and testing 
-our hypotheses.
+our hypotheses 🤔.
 
 Clone the repo and feel free to contribute by using command
 ~~~
@@ -26,6 +26,8 @@ those automatically. Navigate to your repo from the terminal and enter:
 
 3. deactivate # deactivate virtual environment
 ~~~
+
+All contributors are welcome! 🤗
 
 Please, don't push your code directly into **main**
 branch - create new branch instead eg *feature/calculate-symmetry-indices* and use that one for
