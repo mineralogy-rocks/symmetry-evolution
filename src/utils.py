@@ -3,6 +3,13 @@ import numpy as np
 import pandas as pd
 
 
+def get_pm_attrs() -> pd.DataFrame:
+    pm_attrs = pd.read_csv("data/2022_pgm_attributes.csv")
+    pm_attrs["MODE"] = pm_attrs["MODE"].str.lower()
+
+    return pm_attrs
+
+
 def get_mineral_cs_tuple() -> pd.DataFrame:
     mineral_attr = pd.read_csv("data/rruff_database_2021_12_25.csv")
 
