@@ -4,14 +4,14 @@ import pandas as pd
 
 
 def get_pm_attrs() -> pd.DataFrame:
-    pm_attrs = pd.read_csv("data/2022_pgm_attributes.csv")
+    pm_attrs = pd.read_csv("data/input/2022_pgm_attributes.csv")
     pm_attrs["MODE"] = pm_attrs["MODE"].str.lower()
 
     return pm_attrs
 
 
 def get_mineral_cs_tuple() -> pd.DataFrame:
-    mineral_attr = pd.read_csv("data/rruff_database_2021_12_25.csv")
+    mineral_attr = pd.read_csv("data/input/rruff_database_2021_12_25.csv")
 
     mineral_attr["Crystal Systems"] = mineral_attr["Crystal Systems"].str.replace(
         r", +", "|"
@@ -29,7 +29,7 @@ def get_mineral_cs_tuple() -> pd.DataFrame:
 
 
 def get_mineral_pm_tuple() -> pd.DataFrame:
-    mineral_pm = pd.read_csv("data/2021_hazen_pgm.csv")
+    mineral_pm = pd.read_csv("data/input/2021_hazen_pgm.csv")
 
     mineral_pm.rename(columns={"Mineral Name": "mineral_name"}, inplace=True)
     mineral_pm = mineral_pm.loc[1:, :]
