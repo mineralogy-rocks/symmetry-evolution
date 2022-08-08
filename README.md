@@ -1,15 +1,15 @@
 # Symmetry Evolution Codebase
 
 The repository we use to answer questions about the symmetry evolution in the light
-of paragenetic modes, defined by 📖 [Bob Hazen and Shaunna Morrison in 2021](http://minsocam.org/MSA/Ammin/AM_Preprints/8099HazenPreprint.pdf). 
+of paragenetic modes, defined by 📖 [Bob Hazen and Shaunna Morrison in 2021](http://minsocam.org/MSA/Ammin/AM_Preprints/8099HazenPreprint.pdf).
 
-We are using open-access [RRUFF](https://rruff.info/) data for building the warehouse and testing 
+We are using open-access [RRUFF](https://rruff.info/) data for building the warehouse and testing
 our hypotheses 🤔.
 
 Clone the repo and feel free to contribute by using command
 ~~~
 git clone git@github.com:mineralogy-rocks/symmetry-evolution.git
-~~~ 
+~~~
 
 Next, open the repo using your favourite IDE and initialize virtual environment using
 ~~~
@@ -31,8 +31,8 @@ All contributors are welcome! 🤗
 
 Please, don't push your code directly into **main**
 branch - create new branch instead eg *feature/calculate-symmetry-indices* and use that one for
-the development. Once ready for the deployment, you can create a **PR** and Liubomyr Gavryliv will 
+the development. Once ready for the deployment, you can create a **PR** and Liubomyr Gavryliv will
 review your code and merge it into the **main** branch.
 
-All code is hosted under the [MIT License](https://github.com/mineralogy-rocks/symmetry-evolution/blob/main/LICENSE) - 
+All code is hosted under the [MIT License](https://github.com/mineralogy-rocks/symmetry-evolution/blob/main/LICENSE) -
 feel free to reuse it, contribute, share or do anything  you wish as long as you are doing research/science/education.
