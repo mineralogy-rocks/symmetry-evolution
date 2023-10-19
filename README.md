@@ -34,5 +34,13 @@ branch - create new branch instead eg *feature/calculate-symmetry-indices* and u
 the development. Once ready for the deployment, you can create a **PR** and Liubomyr Gavryliv will
 review your code and merge it into the **main** branch.
 
-All code is hosted under the [MIT License](https://github.com/mineralogy-rocks/symmetry-evolution/blob/main/LICENSE) -
+
+## Support
+
+This project No. 3007/01/01 has received funding from the **European Union´s Horizon 2020 research and innovation programme** under the *Marie Skłodowska-Curie grant agreement No. 945478*.
+
+
+## License
+
+All code is hosted under the [MIT License](LICENSE) -
 feel free to reuse it, contribute, share or do anything  you wish as long as you are doing research/science/education.
